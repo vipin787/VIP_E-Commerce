@@ -5,7 +5,7 @@ import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 import Container from "../components/Container";
-// import { services } from "../utils/Data";
+import { services } from "../utils/Data";
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
-                  <h4>Best Sale</h4>
+                  <h4>Best Sake</h4>
                   <h5>iPad S13+ Pro.</h5>
                   <p>
                     From $999.00 <br /> or $41.62/mo.
@@ -89,7 +89,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      {/* <Container class1="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
             <div className="servies d-flex align-items-center justify-content-between">
@@ -107,8 +107,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </Container> */}
-
+      </Container>
       <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
@@ -130,7 +129,7 @@ const Home = () => {
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Smart Tv</h6>
-                  <p>10 Items</p>  
+                  <p>10 Items</p>
                 </div>
                 <img src="images/tv.jpg" alt="camera" />
               </div>
@@ -173,7 +172,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-       <Container class1="featured-wrapper py-5 home-wrapper-2">
+      <Container class1="featured-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading">Featured Collection</h3>
@@ -256,14 +255,13 @@ const Home = () => {
             <h3 className="section-heading">Special Products</h3>
           </div>
         </div>
-        <div className="row gap-5">
+        <div className="row">
           <SpecialProduct />
           <SpecialProduct />
           <SpecialProduct />
           <SpecialProduct />
         </div>
       </Container>
-
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -276,8 +274,8 @@ const Home = () => {
           <ProductCard />
           <ProductCard />
         </div>
-      </Container> 
-       <Container class1="marque-wrapper home-wrapper-2 py-5">
+      </Container>
+      <Container class1="marque-wrapper home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
             <div className="marquee-inner-wrapper card-wrapper">
@@ -332,7 +330,7 @@ const Home = () => {
             <BlogCard />
           </div>
         </div>
-      </Container> 
+      </Container>
     </>
   );
 };

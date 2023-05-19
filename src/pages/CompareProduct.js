@@ -2,7 +2,7 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Color from "../components/Color";
 import Meta from "../components/Meta";
-// import watch from "../images/watch.jpg";
+import watch from "../images/watch.jpg";
 import Container from "../components/Container";
 
 const CompareProduct = () => {
@@ -14,11 +14,11 @@ const CompareProduct = () => {
         <div className="row">
           <div className="col-3">
             <div className="compare-product-card position-relative">
-              {/* <img
+              <img
                 src={watch}
                 alt="cross"
                 className="position-absolute cross img-fluid"
-              /> */}
+              />
               <div className="product-card-image">
                 <img src="images/watch.jpg" alt="watch" />
               </div>
@@ -63,9 +63,9 @@ const CompareProduct = () => {
                 alt="cross"
                 className="position-absolute cross img-fluid"
               />
-              {/* <div className="product-card-image">
+              <div className="product-card-image">
                 <img src={watch} alt="watch" />
-              </div> */}
+              </div>
               <div className="compare-product-details">
                 <h5 className="title">
                   Honor T1 7.0 1 GB RAM 8 GB ROM 7 Inch With Wi-Fi+3G Tablet
